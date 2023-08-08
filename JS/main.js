@@ -1,23 +1,12 @@
-//main,js
+x = 6;
+y = 6;
+z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
 
-//window.alert method
-window.alert("Hello,world");
-
-//window.alert method
-document.write("For the last time, hello, world <br>");
-
-//creating two variables
-var age = 30;
-var name = "John";
-
-// Output the values of the variables using the document.write method
-document.write("Age:", age);
-document.write("Name:", name);
+// Used the getElementById to dispaly in the browser
+document.getElementById("demo").innerHTML = "Element with paragraph ID";
 
 
-// Expression Example
-var x = 10;
-var y = 5;
-var result = (x + y) * 2;
 
-document.write(result); // Output: 30
+  
